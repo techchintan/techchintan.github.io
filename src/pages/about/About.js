@@ -16,19 +16,22 @@ export function About() {
 
         <div className="about__text">
           <h2 className="about__intro">
-            Namaste🙏! I'm Chintan Sudani, a Software Engineer from the INDIA.
+            Namaste🙏! <br /> I'm Chintan Sudani, a Professional Software
+            Engineer from the INDIA.
           </h2>
 
           <p>
-            I am an expert in using the&nbsp;
+            I am a full-stack web architect who is an expert in using the &nbsp;
             <abbr title="MongoDB, Express, React, and Node.js">MERN</abbr>
-            &nbsp;stack in implementing server-side logic and visual elements
-            that users interact with within the application.
+            &nbsp; stack to implement server-side logic and visual elements that
+            users interact with within the application.
           </p>
 
           <p>
-            My skillset also includes extensive experience in working with JavaScript,
-            React, NextJS, VueJS with TypeScript and MongoDB, MySQL databases.
+            My skillset also includes extensive experience in working with
+            HTML5, CSS3, JavaScript, React.js, Next.js, Vue.js with TypeScript,
+            TailwindCSS, Redux, Recoil.js, and Node.js, MongoDB, MySQL
+            databases.
           </p>
 
           <p>
