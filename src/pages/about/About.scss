@@ -1,0 +1,21 @@
+.about {
+  display: flex;
+  flex-direction: column;
+
+  @media only screen and (min-width: 600px) {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  &__text {
+    @media only screen and (min-width: 600px) {
+      padding-left: 30px;
+      position: relative;
+      top: -9px;
+
+      .about__intro {
+        margin-top: 0;
+      }
+    }
+  }
+}

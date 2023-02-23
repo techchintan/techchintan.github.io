@@ -1,0 +1,24 @@
+.link {
+  --accent: #ffeb6c;
+
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+
+  &:hover {
+    --accent: #f7d708;
+  }
+
+  &__children {
+    background-image: linear-gradient(
+      to bottom,
+      transparent 60%,
+      var(--accent) 0
+    );
+
+    & > * {
+      display: inline;
+    }
+  }
+}
