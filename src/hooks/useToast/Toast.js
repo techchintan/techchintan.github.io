@@ -73,10 +73,6 @@ function Toast({ message, remove }) {
       classNames="toast"
       unmountOnExit
       onExited={remove}
-      /**
-       * Fixes Warning: findDOMNode is deprecated in StrictMode issue
-       * https://github.com/reactjs/react-transition-group/issues/668#issuecomment-695162879
-       */
       nodeRef={rootRef}
     >
       <div ref={rootRef} className="toast">

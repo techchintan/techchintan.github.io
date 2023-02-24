@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, Item } from "components/Menu";
 import { Container } from "components/Container";
 import "./Header.scss";
+import { config } from "utils/config";
 
 export function Header() {
   return (
@@ -26,7 +27,7 @@ function Title() {
   function onHover() {
     const { current } = title;
     current.dataset.content = current.textContent;
-    current.textContent = "Chintan Sudani";
+    current.textContent = config.name;
   }
 
   function onHoverOut() {
@@ -41,7 +42,7 @@ function Title() {
       onMouseEnter={onHover}
       onMouseLeave={onHoverOut}
     >
-      <h1 ref={title}>techchintan</h1>
+      <h1 ref={title}>{config.username}</h1>
     </Link>
   );
 }

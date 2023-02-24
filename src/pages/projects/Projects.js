@@ -1,18 +1,18 @@
 import { Helmet } from "react-helmet-async";
+import { config } from "utils/config";
 
-import { projects } from "./assets/data";
 import "./Projects.scss";
 
 export function Projects() {
   return (
     <>
       <Helmet>
-        <title>techchintan | projects</title>
+        <title>{config.username} | projects</title>
       </Helmet>
 
       <section className="projects">
         <ul className="projects__list">
-          {projects.map((project, index) => (
+          {config.projects.map((project, index) => (
             <li className="projects__listItem" key={index}>
               <Project project={project} />
             </li>
