@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/pages/contact/Contact.scss"],"names":[],"mappings":"AACE,gBACE,YAAA","file":"4.574a42a3.chunk.css","sourcesContent":[".contact {\n  &__title {\n    margin-top: 0;\n  }\n}\n"]}

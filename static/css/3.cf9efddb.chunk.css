@@ -1,0 +1,2 @@
+.about{display:flex;flex-direction:column}@media only screen and (min-width:600px){.about{flex-direction:row;align-items:flex-start}}@media only screen and (min-width:600px){.about__text{padding-left:30px;position:relative;top:-9px}.about__text .about__intro{margin-top:0}}
+/*# sourceMappingURL=3.cf9efddb.chunk.css.map */
