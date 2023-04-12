@@ -11,27 +11,29 @@ import { SiUpwork } from "react-icons/si";
 
 export const config = {
   emailAddress: "csudani7@gmail.com",
-  name:"Chintan Sudani",
+  name: "Chintan Sudani",
   username: "techchintan",
   aboutIntro: (
     <h2 className="about__intro">
-      Namaste🙏! <br /> I'm Chintan Sudani, a Professional Software Engineer
-      from the INDIA.
+      Namaste🙏, Myself Chintan Sudani.
+      <br /> A Professional Software Engineer from the INDIA.
     </h2>
   ),
   skillIntro: (
     <p>
-      I am a full-stack web architect who is an expert in using the &nbsp;
-      <abbr title="MongoDB, Express, React, and Node.js">MERN</abbr>
-      &nbsp; stack to implement server-side logic and visual elements that users
-      interact with within the application.
+      As a full-stack web architect, I specialize in utilizing the{" "}
+      <abbr title="MongoDB, Express, React, and Node.js">MERN</abbr> stack to
+      create both the server-side logic and visual components that users engage
+      with within an application.
     </p>
   ),
   techStackIntro: (
     <p>
-      My skillset also includes extensive experience in working with HTML5,
-      CSS3, JavaScript, React.js, Next.js, Vue.js with TypeScript, TailwindCSS,
-      Redux, Recoil.js, and Node.js, MongoDB, MySQL databases.
+      My proficiency extends beyond this to encompass an array of technologies,
+      including HTML5, CSS3, JavaScript, React.js, Next.js, Vue.js with
+      TypeScript, TailwindCSS, Redux, Recoil.js, Storybook and Node.js, MongoDB,
+      MySQL databases. With extensive experience in this field, I bring a wealth
+      of knowledge to any project.
     </p>
   ),
   contactText:
@@ -39,7 +41,7 @@ export const config = {
   projects: [
     {
       title: (
-        <ExternalLink to="https://signoz.io/">
+        <ExternalLink to="https://signoz.io">
           <h3>SigNoz: Open-source observability platform</h3>
         </ExternalLink>
       ),
@@ -52,32 +54,51 @@ export const config = {
             such as tracing, metrics, and logs, Signoz provides comprehensive
             visibility into the performance and health of applications.
           </p>
-          <p>
-            Signoz's frontend tech stack is built on React and Redux, providing
-            a robust and scalable architecture for the user interface of the
-            application. Additionally, it incorporates Ant Design components for
-            a sleek and modern design.
-          </p>
+          <div>
+            As a developer with SigNoz, I had the following key
+            responsibilities:
+            <ul>
+              <li>
+                Worked as a Frontend Engineer for SigNoz, an open-source
+                observability platform.
+              </li>
+              <li>
+                Designed and developed user interfaces using the latest
+                front-end technologies, such as React, Redux, and Typescript
+                with Ant Design UI library.
+              </li>
+              <li>
+                I created the WHERE clause custom Select component to retrieve
+                value as the tag key, operator, and value for Query while
+                working on the Query Builder feature development team.
+              </li>
+            </ul>
+          </div>
         </>
       ),
       tags: [
         "React.js",
         "Typescript",
         "Ant Design",
+        "Styled-components",
         "Redux",
-        "jestjs",
+        "Jest",
+        "Postman",
         "Unit Testing",
         "API Integration",
       ],
       links: [
         <ExternalLink to="https://github.com/SigNoz/signoz">
-          GitHub
+          Open-Source GitHub Repository
+        </ExternalLink>,
+        <ExternalLink to="https://github.com/SigNoz/signoz/commits?author=techchintan">
+          My Contribution
         </ExternalLink>,
       ],
     },
     {
       title: (
-        <ExternalLink to="https://www.angelone.in/">
+        <ExternalLink to="https://www.angelone.in">
           <h3>Angel One: Online Trading & Stock Broking</h3>
         </ExternalLink>
       ),
@@ -126,14 +147,14 @@ export const config = {
         "Postman",
       ],
       links: [
-        <ExternalLink to="https://trade.angelone.in/">
+        <ExternalLink to="https://trade.angelone.in">
           AngelOne KYC
         </ExternalLink>,
       ],
     },
     {
       title: (
-        <ExternalLink to="https://www.moneyhop.co/">
+        <ExternalLink to="https://www.moneyhop.co">
           <h3>moneyHOP: India's First Cross-Border Neo Bank</h3>
         </ExternalLink>
       ),
@@ -173,20 +194,21 @@ export const config = {
         </>
       ),
       tags: [
+        "React.js",
         "Next.js",
         "Typescript",
-        "React.js",
         "Material-Ui",
         "Recoil.js",
-        "AWS",
-        "PWA",
+        "Storybook",
+        "Tailwind CSS",
+        "AWS for Deployments",
         "API Integration",
       ],
       links: [
-        <ExternalLink to="https://hopremit.moneyhop.co/">
+        <ExternalLink to="https://hopremit.moneyhop.co">
           hopRemit - for Customers
         </ExternalLink>,
-        <ExternalLink to="https://k2.moneyhop.co/">
+        <ExternalLink to="https://k2.moneyhop.co">
           k2Remit - Vendors
         </ExternalLink>,
       ],
@@ -215,7 +237,7 @@ export const config = {
     },
     {
       label: "medium.com",
-      href: "https://techchintan.medium.com/",
+      href: "https://techchintan.medium.com",
       icon: <FaMediumM />,
     },
     {
