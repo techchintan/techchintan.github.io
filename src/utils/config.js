@@ -1,6 +1,7 @@
 import {
   AngelOneIcon,
   MoneyHopIcon,
+  PromptpalIcon,
   SigNozIcon,
 } from "pages/projects/assets/icons";
 import { ExternalLink } from "pages/projects/ExternalLink";
@@ -31,14 +32,69 @@ export const config = {
     <p>
       My proficiency extends beyond this to encompass an array of technologies,
       including HTML5, CSS3, JavaScript, React.js, Next.js, Vue.js with
-      TypeScript, TailwindCSS, Redux, Recoil.js, Storybook and Node.js, MongoDB,
-      MySQL databases. With extensive experience in this field, I bring a wealth
-      of knowledge to any project.
+      TypeScript, TailwindCSS, Redux, Sanity.io, GraphQL, Recoil.js, Storybook
+      and Node.js, MongoDB, MySQL databases. With extensive experience in this
+      field, I bring a wealth of knowledge to any project.
     </p>
   ),
   contactText:
     "I am open to engaging in exciting freelance opportunities and projects. If you are interested in working with me, the most efficient way to reach me is by sending an email to",
   projects: [
+    {
+      title: (
+        <ExternalLink to="https://www.promptpal.net">
+          <h3>Promptpal: Discover the best AI prompts</h3>
+        </ExternalLink>
+      ),
+      logo: <PromptpalIcon />,
+      description: (
+        <>
+          <p>
+            PromptPal is an AI-powered tool that provides marketers, writers,
+            designers, and other professionals with prompts to help them get the
+            most out of their work. It allows users to search for prompts based
+            on categories such as content writing, education, development, and
+            marketing.
+          </p>
+          <div>
+            As a developer with Promptpal, I had the following key
+            responsibilities:
+            <ul>
+              <li>
+                I played a key role in elevating the user experience of the
+                platform. Contributed to the development and refinement of
+                intuitive and responsive user interfaces.
+              </li>
+              <li>
+                Implemented a versatile and efficient multi-purpose search
+                component, enhancing the platform's capability to seamlessly
+                navigate and retrieve prompts for various AI platforms.
+              </li>
+              <li>
+                Implemented a robust and reusable components structure where I
+                followed the Atomic design schema, ensuring a systematic and
+                scalable approach to frontend development.
+              </li>
+            </ul>
+          </div>
+        </>
+      ),
+      tags: [
+        "React.js",
+        "Next.js v14",
+        "Typescript",
+        "Material-UI",
+        "Styled-components",
+        "Sanity.io",
+        "Git",
+        "Jest",
+      ],
+      links: [
+        <ExternalLink to="https://www.promptpal.net/platforms/chatgpt">
+          Promptpal Dashboard
+        </ExternalLink>,
+      ],
+    },
     {
       title: (
         <ExternalLink to="https://signoz.io">

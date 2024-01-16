@@ -13,15 +13,6 @@ export function Footer() {
     <footer className="footer">
       <Container className="footer__inner">
         <Menu>
-          <MenuItem
-            href={`mailto:${config.emailAddress}`}
-            aria-label="gmail.com"
-            title="gmail.com"
-            onClick={onClickEmail}
-            active
-          >
-            <FaGooglePlusG />
-          </MenuItem>
           {config.footerLinks.map((item, index) => {
             return (
               <MenuItem
@@ -36,6 +27,15 @@ export function Footer() {
               </MenuItem>
             );
           })}
+          <MenuItem
+            href={`mailto:${config.emailAddress}`}
+            aria-label="gmail.com"
+            title="gmail.com"
+            onClick={onClickEmail}
+            active
+          >
+            <FaGooglePlusG />
+          </MenuItem>
         </Menu>
       </Container>
     </footer>

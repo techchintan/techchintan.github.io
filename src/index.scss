@@ -1,12 +1,10 @@
 body {
   --color-bg: #fff;
   --color-fg: #333;
-
   margin: 0;
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
   background-color: var(--color-bg);
   color: var(--color-fg);
 }

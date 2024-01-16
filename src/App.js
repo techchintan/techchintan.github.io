@@ -5,7 +5,7 @@ import { HelmetProvider } from "react-helmet-async";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { Container } from "./components/Container";
-import { Routes } from "./Routes";
+import { PageRoutes } from "./Routes";
 import { ToastProvider, useToast } from "./hooks/useToast";
 import "./App.scss";
 
@@ -58,7 +58,7 @@ function Main() {
     <main className="main">
       <Header />
       <Container>
-        <Routes />
+        <PageRoutes />
       </Container>
       <Footer />
     </main>
