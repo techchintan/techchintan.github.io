@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/743.ff48f466.chunk.css","mappings":"AACE,gBACE","sources":["pages/contact/Contact.scss"],"sourcesContent":[".contact {\r\n  &__title {\r\n    margin-top: 0;\r\n  }\r\n}\r\n"],"names":[],"sourceRoot":""}
