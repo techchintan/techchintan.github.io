@@ -15,7 +15,11 @@ function App() {
       <HelmetProvider>
         <ToastProvider>
           <BrowserRouter>
-            <Main />
+            <section className="main">
+              <Container>
+                <div />
+              </Container>
+            </section>
           </BrowserRouter>
         </ToastProvider>
       </HelmetProvider>
